@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+}
+
+
+.accountdetails-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px 20px;
+    position: absolute;
+    width: 1186px;
+    height: 375px;
+    left:200px;
+    top: 17px;
+}
+
+/* .bankaccount-container{
+   
+} */
+
+.flex-me{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.size-all{
+    width: 314px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 204px;
+    background: #0D6CF2;
+    box-shadow: 0px 20px 32px rgba(0, 0, 0, 0.14);
+    border-radius: 16px;
+    padding: 11px 29px 29px;
+}
+
+.edit-button{
+    width: 47px;
+    height: 27px;
+    background: rgba(255, 255, 255, 0.91);
+    border-radius: 15px;
+    border: none;
+    font-family: 'HelveticaNowDisplay-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.151111px;
+    color: #16161D; 
+    cursor: pointer;
+}
+
+.account-text{
+    color: #ffffff;
+}
+
+.active{
+    background: rgba(255, 255, 255, 0.93);
+    border-radius: 100px;
+    padding: 5px 10px;
+    color: #16161D;
+    font-family: 'HelveticaNowText-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.transform-text{
+    text-transform: uppercase;
+}
+
+.location-detail{
+    font-family: 'Helvetica Now Text ';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.location-text{
+    font-family: 'HelveticaNowText-Regualar ';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.add-street-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1186px;
+    margin: 460px 0px 0px 227px ;
+}
+
+.add-street-button{
+    padding: 18px 32px;
+    gap: 6px;
+    width: 165px;
+    height: 54px;
+    background: #1877F2;
+    border-radius: 16px;
+    border: none;
+    color: #ffffff;
+    font-family: 'HelveticaNowText-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.add-street-input{
+    padding: 11px 21px;
+    width: 317px;
+    height: 32px;
+    background: #FFFFFF;
+    font-family: 'HelveticaNowDisplay-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+.street-details-added{
+    padding: 14px;
+    width: 150.74px;
+    height: 111px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.street-circle{
+    padding: 11.5px 6.5px 0px 2px;
+    width: 37.05px;
+    height: 36.47px;
+    background: rgba(0, 0, 0, 0.07);
+    border-radius: 75.1216px;
+    text-align: center;
+}
+
+.street-details-grid{
+    margin:50px 0 0 220px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(100px,180px));
+    gap: 20px;
+}
+
+/* .street-details-flex{
+    display: flex;
+    justify-content: flex-end;
+} */
+

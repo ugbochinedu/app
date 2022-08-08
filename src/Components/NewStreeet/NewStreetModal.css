@@ -1,0 +1,43 @@
+.street-form{
+    padding: 25px 20px 10px 10px;
+    width: 470px;
+    margin: 20px auto;
+    height: 200px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.street-form-box{
+    width: 437px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 180px;
+}
+
+.account-input input{
+    border: 1px solid #0D99FF;
+    height: 56px;
+    width: 437px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    background: #F0F0F1;
+}
+
+.street-button{
+    background: #1877F2;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-family: 'HelveticaNowDisplay-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    width: 450px;
+    height: 56px;
+}
+

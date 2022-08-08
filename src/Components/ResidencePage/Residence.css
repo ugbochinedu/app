@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+}
+
+.residence_container{
+    width: 1155px;
+    margin-left: 240px;
+}
+
+.button_container_flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 227px;
+    height: 58px;
+    padding: 3px 10px;
+    gap: 9px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    left: 286px;
+    top: 138px;
+}
+
+.button_house{
+    padding: 10px 20px;
+    gap: 10px;
+    width: 80px;
+    height: 38px;
+    background: #0D6CF2;
+    border-radius: 16px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'HelveticaNowText-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.button_apartment{
+    font-family: 'HelveticaNowText-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color:#A6AAB4;
+    border: none;
+    background: #FFFFFF;
+}
+
+.total_houses{
+    margin: 0px 10px 0px 20px;
+    color: black;
+    width: 104px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 18px;
+    font-family: 'HelveticaNowText-Regular';
+}
+
+.button_search_flex{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    margin-top:150px;
+}
+
+.span_house{
+    color: #7D7F88;
+    font-size: 14px;
+}
+
+.residence_search{
+    padding: 15px;
+    position: absolute;
+    width: 377px;
+    height: 24px;
+    background: #FFFFFF;
+    border: 1px solid #A6AAB4;
+    border-radius: 10px;
+    outline: none;
+}
+
+.house-property-box{
+    display: flex;
+    justify-content: space-between;
+    color: #16161d;
+    font-family: 'HelveticaNowDisplay-Regular';
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    margin-top: 50px;
+    width: 1120px;
+    padding: 0px 20px;
+}
+
+.address-property-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #16161d;
+    font-family: 'HelveticaNowDisplay-Regular';
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+    height: 84px;
+    width: 1120px;
+    padding: 0px 20px;
+}
+
+.address-property-box:hover{
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.checkbox-houses{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75px;
+}
+
+.checkbox-address{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+}
+
+.houses-text{
+    color: #272643;
+}
+
+.property-occupant{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.images-occupant{
+    margin-right: 0px;
+}
+
+.group-from-house{
+    margin-top: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px;
+    border-radius: 16px;
+}
+
+.text-button-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    height: 72px;
+    padding: 10px 22px;
+}
+
+.create-group-button{
+    width: 182px;
+    height: 52px;
+    background: #1877f2;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 100%;
+    font-family:'HelveticaNowText-Regular';
+    letter-spacing: -0.5px;
+    border: none;
+    cursor: pointer;
+}
+
+.group-house-text{
+    width: 407px;
+    font-family: 'HelveticaNowDisplay-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    color: black;
+}
